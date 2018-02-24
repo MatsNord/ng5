@@ -30,7 +30,7 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent implements OnInit {
 
-  private itemCount: number;
+  itemCount: number;
   btnText: string = 'Add an item';
   goalText: string = 'My first goal';
   goals = ['a goal'];
